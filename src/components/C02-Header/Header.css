@@ -1,0 +1,79 @@
+/*
+    HEADER
+*/
+.header {
+    display: block;
+    height: auto; width: 100%;
+    background-color: #f2f3f4;
+    margin-top: 64px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* 
+    WELCOME TEXT PROPERTIES
+*/
+
+.header-welcome {
+    display: flex;
+
+}
+
+.header-welcome-line {
+    height: 1px; width: 80%;
+    margin: 10px 5px;
+    background-color: #131313;
+}
+
+.header-welcome-text{
+    height: auto; width: 40%;
+    margin: 0px 20px;
+    text-align: center;
+    color: #131313;
+}
+
+/* 
+    INTRODUCTION PROPERTIES 
+*/
+
+.header-intro {
+    display: flex;
+
+}
+
+.header-intro-text-container {
+    height: auto; width: 50%;
+    margin-left: 150px;
+    
+}
+
+.header-intro-text-greet {
+    margin-top: 150px;
+    font-size: 20px;
+}
+
+.header-intro-text-name {
+    margin: 0px;
+    font-size: 70px;
+
+}
+
+.header-intro-text-about {
+    font-size: 25px;
+    margin-bottom: 250px;
+}
+
+.header-intro-img-container {
+    display: flex;
+    height: auto; width: 50%;
+    margin: auto;
+    text-align: center;
+    align-self: center;
+}
+
+.header-intro-img {
+
+    height: 400px; width: 400px;
+    margin: auto;
+
+    
+} 

@@ -1,0 +1,64 @@
+/* 
+    NAVBAR 
+*/
+.navbar{
+    display: flex;
+    position: fixed;
+    background-color: #f2f3f4;
+    height: 64px; width: 100%; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    top: 0;
+    z-index: 999;
+}
+
+/* 
+    LOGO PROPERTIES 
+*/
+
+.navbar-logo {
+    display: flex;
+    height: auto; width: 100%;
+}
+
+.navbar-logo-img {
+    height: 37.5px; width: 37.5px;
+    margin: 17.5px 10px 17.5px 25px;
+    
+}
+
+.navbar-logo-text {
+    margin: 25px 10px 25px 5px;
+    text-align: center;
+    align-items: center;
+} 
+
+
+/* 
+    RESUME BUTTON PROPERTIES 
+*/
+
+.navbar-resume {
+    display: flex;
+    height: 50px; width: 275px;
+    margin: 12px 25px 12px 25px;
+}
+
+.navbar-resume-btn {
+    display: flex;
+    height: auto; width: 225px;
+    background-color: #232323;
+    border: 1px solid #232323;
+    border-radius: 5px;
+}
+
+.navbar-resume-btn-img {
+    height: 27.5px; width: 27.5px;
+    margin: 10px 10px 10px 10px;
+}
+
+.navbar-resume-btn-text {
+    color: #f2f3f4;
+    margin-left: 13px;
+   
+}
