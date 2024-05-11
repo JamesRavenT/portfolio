@@ -34,31 +34,3 @@
 } 
 
 
-/* 
-    RESUME BUTTON PROPERTIES 
-*/
-
-.navbar-resume {
-    display: flex;
-    height: 50px; width: 275px;
-    margin: 12px 25px 12px 25px;
-}
-
-.navbar-resume-btn {
-    display: flex;
-    height: auto; width: 225px;
-    background-color: #232323;
-    border: 1px solid #232323;
-    border-radius: 5px;
-}
-
-.navbar-resume-btn-img {
-    height: 27.5px; width: 27.5px;
-    margin: 10px 10px 10px 10px;
-}
-
-.navbar-resume-btn-text {
-    color: #f2f3f4;
-    margin-left: 13px;
-   
-}

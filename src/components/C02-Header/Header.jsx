@@ -28,10 +28,42 @@ export function Introduction() {
                 <p className='header-intro-text-greet'> Hello, I'm</p>
                 <h1 className='header-intro-text-name'>James Raven Tabag</h1>
                 <p className='header-intro-text-about'>Software Engineer with an experience in developing small websites, Android, and Windows application</p>
+                <span className='header-intro-socials'>
+                    <ul className='header-intro-socials-list'>
+                        <li className='header-intro-socials-item'>
+                            <img className='header-intro-socials-icons' src={icon} alt="icon"/>
+                        </li>
+                        <li className='header-intro-socials-item'>
+                            <img className='header-intro-socials-icons' src={icon} alt="icon"/>
+                        </li>
+                        <li className='header-intro-socials-item'>
+                            <img className='header-intro-socials-icons' src={icon} alt="icon"/>
+                        </li>
+                        <li className='header-intro-socials-item'>
+                            <img className='header-intro-socials-icons' src={icon} alt="icon"/>
+                        </li>
+                        <li className='header-intro-socials-item'>
+                            <img className='header-intro-socials-icons' src={icon} alt="icon"/>
+                        </li>
+                        <li className='header-intro-socials-item'>
+                            <img className='header-intro-socials-icons' src={icon} alt="icon"/>
+                        </li>
+                    </ul>
+                </span>
+                <div className='header-resume'>
+                    <span className='header-resume-btn'> 
+                        <p className='header-resume-btn-text'> V I E W &nbsp; R E S U M E </p>
+                        <img className='header-resume-btn-img' src={icon} alt="icon"/>
+                    </span>
+                </div>
             </span>
+
+           
+
             <span className='header-intro-img-container'>
                 <img className='header-intro-img' src={icon} alt="icon"/>
             </span>
+            
         </div>
     )
 }

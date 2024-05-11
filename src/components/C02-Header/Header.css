@@ -19,7 +19,7 @@
 }
 
 .header-welcome-line {
-    height: 1px; width: 80%;
+    height: 1px; width: 70%;
     margin: 10px 5px;
     background-color: #131313;
 }
@@ -53,13 +53,65 @@
 
 .header-intro-text-name {
     margin: 0px;
-    font-size: 70px;
+    font-size: 50px;
 
 }
 
 .header-intro-text-about {
     font-size: 25px;
-    margin-bottom: 250px;
+
+    text-align: justify;
+    padding-right: 100px;
+ 
+}
+
+.header-intro-socials {
+    display: flex;
+}
+
+.header-intro-socials-list {
+    list-style: none;
+    margin-left: -30px;
+}
+
+.header-intro-socials-item {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.header-intro-socials-icons {
+    display: inline-block;
+    height: 50px; width: 50px;
+}
+
+
+/* 
+    RESUME BUTTON PROPERTIES 
+*/
+
+.header-resume {
+    display: flex;
+    height: 60px; width: 100%;
+    margin: 40px 0px 200px 0px;
+}
+
+.header-resume-btn {
+    display: flex;
+    height: auto; width: 235px;
+    background-color: #232323;
+    border: 1px solid #232323;
+    border-radius: 5px;
+}
+
+.header-resume-btn-img {
+    height: 27.5px; width: 27.5px;
+    margin: 10px 10px 10px 10px;
+}
+
+.header-resume-btn-text {
+    color: #f2f3f4;
+    margin-left: 13px;
+   
 }
 
 .header-intro-img-container {
@@ -71,9 +123,7 @@
 }
 
 .header-intro-img {
-
     height: 400px; width: 400px;
     margin: auto;
-
-    
 } 
+
