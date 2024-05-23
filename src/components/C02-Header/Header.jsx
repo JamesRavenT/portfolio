@@ -23,6 +23,7 @@ const dlResumeIcon = '/assets/icons/dark/dark_download.png'
 
 //Functions
 
+
 //Components
 export default function Header() {
     return (
@@ -86,9 +87,7 @@ export function Introduction() {
                     </span>
                 </div>
             </span>
-
-            <span className='header-intro-img-container'>
-                <img className='header-intro-img' src={icon} alt="icon"/>
+            <span className='header-intro-image-container'>
             </span>
             
         </div>

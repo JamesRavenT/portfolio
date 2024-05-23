@@ -70,18 +70,20 @@
 */
 
 .header-intro-socials {
-    height: auto; width: 175px;
     display: flex;
+    height: auto; width: 175px;
 }
 
 
 .header-intro-socials-list {
+    display: flex;
+    flex-direction: row;
     list-style: none;
     margin: 7px auto auto -35px;
 }
 
 .header-intro-socials-item {
-    display: inline-block;
+
     margin: auto 20px auto auto;
 }
 
@@ -162,16 +164,10 @@
     INTRODUCTORY IMAGE PROPERTIES 
 */
 
-.header-intro-img-container {
+.header-intro-image-container {
     display: flex;
     height: auto; width: 50%;
     margin: auto;
     text-align: center;
     align-self: center;
 }
-
-.header-intro-img {
-    height: 400px; width: 400px;
-    margin: auto;
-} 
-

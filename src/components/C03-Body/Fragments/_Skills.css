@@ -1,0 +1,58 @@
+.body-skills-item-container{
+    display: flex;
+    overflow: hidden;
+    height: 100%; width: 100%;
+    
+}
+
+/*
+    ICON AND TEXT
+*/
+
+.body-skills-item-icon {
+    margin: 0;
+
+    height: 100px; width:100px;
+}
+
+.body-skills-item-text {
+
+}
+
+/*
+    IDE CATEGORY
+*/
+
+.body-skills-item-ide {
+
+}
+
+.body-skills-item-ide-line {
+
+}
+
+.body-skills-item-ide-text {
+
+}
+
+
+/*
+    IDE LIST
+*/
+
+.body-skills-item-ide-list {
+
+}
+
+.body-skills-item-ide-item {
+
+}
+
+.body-skills-item-ide-item-logo {
+
+}
+
+.body-skills-item-ide-item-text {
+    
+}
+
