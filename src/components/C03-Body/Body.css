@@ -38,7 +38,7 @@
         height: 700px; width: 100%;
         overflow: hidden;
     
-        ul {
+        .list-skills {
             display: flex;
             position: relative;
             height: 95%; width: 100%;
@@ -46,25 +46,32 @@
             overflow-x: auto;
             list-style: none;
             white-space: nowrap;
+            -ms-overflow-style: none;  /* Internet Explorer 10+ */
+            scrollbar-width: none;
+            ::-webkit-scrollbar {
+                display: none;
+            }
+
+            .item-skills {
+                display: flex;
+                height: 300px;
+                line-height: 80%;
+                background-color: #131313;
+                margin: 25px 25px 25px 0;
+                border-radius: 25px;
+                vertical-align: top;
+                transition:  height 2s, width 2s;
+            }
+    
+            li:active {
+              
+                transform: translateY(10px);
+    
+            }
+            
         }
 
-        li {
-            display: flex;
-            height: 300px;
-            line-height: 80%;
-            background-color: #131313;
-            margin: 25px 25px 25px 0;
-            border-radius: 25px;
-            vertical-align: top;
-            transition:  height 2s, width 2s;
-        }
-
-        li:active {
-          
-            transform: translateY(10px);
-
-        }
-        
+  
 
     }
     

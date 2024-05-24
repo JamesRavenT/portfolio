@@ -33,40 +33,54 @@
 
 .details {
     display: block;
-    height: 350px; width: 0;
+    height: auto; width: 0;
     overflow: hidden;
     transition: opacity 2s, width 2s, height 2s;
     transition-delay: 500ms;
 
-    
-
-  
     .container-relatedskills {
-       
-
         .ds-block-01 {
-            height: inherit; width: 90%;
-            margin: 5px 0 0 0;
-            background-color: #f2f3f4;
+            display: flex;
+            align-items: center;
+            height: 75px; width: inherit;
+
+            .design-arrow {
+                display: block;
+                width: 50px;
+                .design-d01 {
+                    margin: 0 0 0 12px;
+                 }
+                .design-d02 {
+                    margin: -9px 0 -7px 25px;
+                }
+                .design-d03 {
+                    margin: 0 0 0 12px;
+                }
+            }
 
             p {
+                color: #f2f3f4;
+                font-size: 40px;
                 font-family: 'Red Hat M';
                 margin: 5px 5px 5px 5px;
                 padding: 7px 0 0 0 ;
             }
         }
-        ul {
-
-            list-style: none;
+        .list-relatedskills {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            list-style-type: none;   
+            -ms-overflow-style: none;  /* Internet Explorer 10+ */
+            scrollbar-width: none;
+            ::-webkit-scrollbar {
+                display: none;
+            }
     
-            li {
-                display: inline-block;
-                height: 40px; width: auto;
-                
-                
+            .item-relatedskills {
+                height: 40px; width: 100px;
                 span {
                     display: flex;
-                    margin: 10px 25px 10px -20px;
+                    margin: auto;
       
                     align-items: center;
     
@@ -86,12 +100,28 @@
     }
 
     .container-relatedprojects {
-        .ds-block-01 {
-            height: inherit; width: 90%;
-            margin: 5px 0 0 0;
-            background-color: #f2f3f4;
+         .ds-block-01 {
+            display: flex;
+            align-items: center;
+            height: 75px; width: inherit;
 
+            .design-arrow {
+                display: block;
+                height: 39px; width: 50px;
+                .design-d01 {
+                    margin: 0 0 0 12px;
+                 }
+                .design-d02 {
+                    margin: -9px 5px -7px 25px;
+                }
+                .design-d03 {
+                    margin: 0 0 0 12px;
+                }
+            }
+            
             p {
+                color: #f2f3f4;
+                font-size: 40px;
                 font-family: 'Red Hat M';
                 margin: 5px 5px 5px 5px;
                 padding: 7px 0 0 0 ;
@@ -99,7 +129,6 @@
         }
 
         div {
-
             height: 200px; width:90%;
 
             ul {
@@ -109,6 +138,11 @@
                 overflow-x: auto;
                 list-style: none;
                 white-space: nowrap;
+                -ms-overflow-style: none;  /* Internet Explorer 10+ */
+                scrollbar-width: none;
+                ::-webkit-scrollbar {
+                    display: none;
+                }
         
                 li {
                     display: inline-block;

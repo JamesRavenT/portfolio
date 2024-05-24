@@ -21,7 +21,7 @@ export function Skills() {
     //Web Development
     const[selectedWebDev, setWebDevState] = useState(false)
     const onWebDev = () => { setWebDevState(true) }
-    const offWebDev = () => { setWebDevState(false)}
+    const offWebDev = () => {}
     const height_WebDev = selectedWebDev ? '450px' : '350px';
     const width_WebDev = selectedWebDev ? '75%' : '350px';
     const info_WebDevWidth = selectedWebDev ? '90%' : '0';
@@ -62,11 +62,13 @@ export function Skills() {
                 <div className='ds-block-03'></div>     
             </div>
             <div className='container-list'>
-                <ul>
-                    <li onClick={() => onWebDev()} 
+                <ul className='list-skills'>
+                    <li className='item-skills'
+                        onClick={() => onWebDev()} 
                         onMouseLeave={() => offWebDev()} 
                         style={style.infoWebDev}> <WebDev height={height_WebDev} details={style.infoWebDevDetail}/> </li>
-                    <li onClick={() => onAndDev()} 
+                    <li className='item-skills'
+                        onClick={() => onAndDev()} 
                         onMouseLeave={() => offAndDev()} 
                         style={style.infoAndDev}> <Android /> </li>
                 </ul>
