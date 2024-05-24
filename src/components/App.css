@@ -1,6 +1,16 @@
+@font-face {
+    font-family: 'Red Hat L'; src: url('./assets/fonts/RedHat/RedHatDisplay-Light.ttf') format('truetype');
+    font-family: 'Red Hat M'; src: url('./assets/fonts/RedHat/RedHatDisplay-Medium.ttf') format('truetype');
+}
+
+
+:root {
+    --c-light: #f2f3f4;
+    --c-dark: #232323;
+}
+
 body {
     display: block;
     margin: auto;
-    background-color: #232323;
-
+    background-color: var(--c-dark);
 }

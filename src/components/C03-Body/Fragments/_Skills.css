@@ -1,58 +1,132 @@
-.body-skills-item-container{
+
+
+.container-skills{
     display: flex;
     overflow: hidden;
-    height: 100%; width: 100%;
+    background-color: #343434;
+    height: 300px; min-width: 350px;
+
+    .front {
+        display: block;
+        max-width: 400px;
+        margin: auto;
+        text-align: center;
+
+        .iconDefault {
+            position: absolute;
+            z-index: 2;
+            height: 100px; width:100px;
+        }
+
+        .iconOnHover {
+            opacity: 1;
+            height: 100px; width:100px;
+        }
+        
+        p {
+            font-family: 'Red Hat M';
+        }
+
+    }
+
+}
+
+.details {
+    display: block;
+    height: 350px; width: 0;
+    overflow: hidden;
+    transition: opacity 2s, width 2s, height 2s;
+    transition-delay: 500ms;
+
+    
+
+  
+    .container-relatedskills {
+       
+
+        .ds-block-01 {
+            height: inherit; width: 90%;
+            margin: 5px 0 0 0;
+            background-color: #f2f3f4;
+
+            p {
+                font-family: 'Red Hat M';
+                margin: 5px 5px 5px 5px;
+                padding: 7px 0 0 0 ;
+            }
+        }
+        ul {
+
+            list-style: none;
+    
+            li {
+                display: inline-block;
+                height: 40px; width: auto;
+                
+                
+                span {
+                    display: flex;
+                    margin: 10px 25px 10px -20px;
+      
+                    align-items: center;
+    
+                    img {
+                        height: 20px; width: 20px;
+                    }
+        
+                    p {
+                        font-family: 'Red Hat M';
+                        color: #f2f3f4;
+                        margin: 10px 5px 10px 5px;
+                    }
+                }
+               
+            }
+        }
+    }
+
+    .container-relatedprojects {
+        .ds-block-01 {
+            height: inherit; width: 90%;
+            margin: 5px 0 0 0;
+            background-color: #f2f3f4;
+
+            p {
+                font-family: 'Red Hat M';
+                margin: 5px 5px 5px 5px;
+                padding: 7px 0 0 0 ;
+            }
+        }
+
+        div {
+
+            height: 200px; width:90%;
+
+            ul {
+                display: flex;
+                height: 95%; width: 90%;
+                overflow-y: hidden;
+                overflow-x: auto;
+                list-style: none;
+                white-space: nowrap;
+        
+                li {
+                    display: inline-block;
+                    height: 90%; width: 150px;
+                    line-Height: 80%;
+                    background-color: #f2f3f4;
+                    margin: 7.5px 25px 25px 0;
+                    border-radius: 10px;
+                    vertical-align: top;
+                }
+            }
+        }
+
+       
+    }
+
+   
     
 }
 
-/*
-    ICON AND TEXT
-*/
-
-.body-skills-item-icon {
-    margin: 0;
-
-    height: 100px; width:100px;
-}
-
-.body-skills-item-text {
-
-}
-
-/*
-    IDE CATEGORY
-*/
-
-.body-skills-item-ide {
-
-}
-
-.body-skills-item-ide-line {
-
-}
-
-.body-skills-item-ide-text {
-
-}
-
-
-/*
-    IDE LIST
-*/
-
-.body-skills-item-ide-list {
-
-}
-
-.body-skills-item-ide-item {
-
-}
-
-.body-skills-item-ide-item-logo {
-
-}
-
-.body-skills-item-ide-item-text {
-    
-}
 

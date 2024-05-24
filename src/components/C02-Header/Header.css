@@ -4,170 +4,134 @@
     background-color: #f2f3f4;
     margin-top: 64px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    /* Welcome To My World */
+    .container-welcome {
+        display: flex;
+
+        span {
+            height: 1px; width: 70%;
+            margin: 10px 5px;
+            background-color: #131313;
+        }
+    
+        p {
+            height: auto; width: 750px;
+            margin: 0px 20px;
+            text-align: center;
+            color: #131313;
+        }
+    }
+
+
+    .container-intro {
+        display: flex;
+
+        /* Left Block */
+        .container-leftblock {
+            height: auto; width: 50%;
+            margin-left: 150px;
+
+            .greeting {
+                margin-top: 120px;
+                font-size: 20px;
+            }
+            
+            .name {
+                margin: 0px;
+                font-size: 50px;
+            }
+            
+            .job-description {
+                font-size: 25px;
+                text-align: justify;
+                padding-right: 100px;
+            }
+
+            .container-socials-n-contact {
+                height: 50px; width: auto;
+                display: flex;
+    
+                .container-socials {
+                    display: flex;
+                    height: auto; width: 175px;
+                
+                    ul {
+                        display: flex;
+                        flex-direction: row;
+                        list-style: none;
+                        margin: 7px auto auto -35px;
+                    
+                        li {
+                            margin: auto 20px auto auto;
+                        
+                            img {
+                                height: 36px; width: 36px;
+                            }
+                        }
+                        
+                    }
+                }
+    
+                .divider {
+                    height: 100%; width: auto;
+                    width : 0.5px;
+                    background-color: #232323;
+                
+                }
+    
+                .container-contact {
+                    display: flex;
+                
+                    img {
+                        height: 26px; width: 26px;
+                        margin: auto 8px auto 18px;
+                    }
+                     
+                    p {
+                        font-size: 20px;
+                        text-align: center;
+                        margin: 11px auto auto auto;
+                        color: #232323;
+                    }
+        
+                }        
+            
+            }
+    
+            .container-btn {
+                display: flex;
+                height: 60px; width: 235px;
+                margin: 20px 0px 120px 0px;
+                background-color: #232323;
+                border: 1px solid #232323;
+                border-radius: 2px;
+            
+                p {
+                    color: #f2f3f4;
+                    font-size: 15px;
+                    margin: 17px 15px 10px 17px;
+                }
+            
+                img {
+                    height: 27.5px; width: 27.5px;
+                    margin: 12px auto 10px 0px;
+                }
+            }
+        }
+
+        /* Right Block */
+        .container-rightblock {
+            display: flex;
+            height: auto; width: 50%;
+            margin: auto;
+            text-align: center;
+            align-self: center;
+        }
+        
+
+
+    }
+    
 }
 
-/* 
-    WELCOME TO MY WORLD PROPERTIES
-*/
-
-.header-welcome {
-    display: flex;
-}
-
-.header-welcome-line {
-    height: 1px; width: 70%;
-    margin: 10px 5px;
-    background-color: #131313;
-}
-
-.header-welcome-text{
-    height: auto; width: 750px;
-    margin: 0px 20px;
-    text-align: center;
-    color: #131313;
-}
-
-/* 
-    INTRODUCTORY TEXT PROPERTIES 
-*/
-
-.header-intro {
-    display: flex;
-}
-
-.header-intro-text-container {
-    height: auto; width: 50%;
-    margin-left: 150px;
-}
-
-.header-intro-text-greet {
-    margin-top: 120px;
-    font-size: 20px;
-}
-
-.header-intro-text-name {
-    margin: 0px;
-    font-size: 50px;
-}
-
-.header-intro-text-about {
-    font-size: 25px;
-    text-align: justify;
-    padding-right: 100px;
-}
-
-/*
-    INTRODUCTORY SOCIALS CONTACT PROPERTIES
-*/
-
-.header-intro-socials-contact {
-    height: 50px; width: auto;
-    display: flex;
-}
-
-/* 
-    INTRODUCTORY SOCIALS PROPERTIES 
-*/
-
-.header-intro-socials {
-    display: flex;
-    height: auto; width: 175px;
-}
-
-
-.header-intro-socials-list {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    margin: 7px auto auto -35px;
-}
-
-.header-intro-socials-item {
-
-    margin: auto 20px auto auto;
-}
-
-.header-intro-socials-icons {
-    height: 36px; width: 36px;
-}
-
-/*
-    INTRODUCTORY SOCIALS AND CONTACTS DIVIDER PROPERTIES
-*/
-
-.header-intro-socials-contact-divider {
-    height: 100%; width: auto;
-    width : 0.5px;
-    background-color: #232323;
-
-}
-
-/*
-    INTRODUCTORY CONTACTS PROPERTIES
-*/
-
-.header-intro-socials-contact {
-    display: flex;
-
-}
-
-.header-intro-socials-contact-icon {
-    height: 26px; width: 26px;
-    margin: auto 8px auto 18px;
-
-}
- 
-.header-intro-socials-contact-number {
-    font-size: 20px;
-    text-align: center;
-    margin: 11px auto auto auto;
-    color: #232323;
-}
-
-
-/*
-    RESUME BUTTON PROPERTIES 
-*/
-
-.header-resume {
-    display: flex;
-    height: 60px; width: 100%;
-    margin: 20px 0px 120px 0px;
-}
-
-.header-resume-btn {
-    display: flex;
-    height: auto; width: 235px;
-    background-color: #232323;
-    border: 1px solid #232323;
-    border-radius: 2px;
-}
-
-.header-resume-btn:hover {
-    background-color: #2bd598;
-    border: 1px solid #2bd598;
-}
-
-.header-resume-btn-img {
-    height: 27.5px; width: 27.5px;
-    margin: 12px auto 10px 0px;
-}
-
-.header-resume-btn-text {
-    color: #f2f3f4;
-    font-size: 15px;
-    margin: 17px 15px 10px 17px;
-}
-
-
-/* 
-    INTRODUCTORY IMAGE PROPERTIES 
-*/
-
-.header-intro-image-container {
-    display: flex;
-    height: auto; width: 50%;
-    margin: auto;
-    text-align: center;
-    align-self: center;
-}
