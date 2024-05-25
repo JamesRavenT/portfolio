@@ -1,7 +1,10 @@
-@font-face {
-    font-family: 'Red Hat L'; src: url('./assets/fonts/RedHat/RedHatDisplay-Light.ttf') format('truetype');
-    font-family: 'Red Hat M'; src: url('./assets/fonts/RedHat/RedHatDisplay-Medium.ttf') format('truetype');
-}
+@font-face { font-family: 'QuickSand'; src: url('./assets/fonts/QuickSand/QuickSand-Regular.ttf') format('truetype'); }
+@font-face { font-family: 'QuickSand L'; src: url('./assets/fonts/QuickSand/QuickSand-Light.ttf') format('truetype'); }
+@font-face { font-family: 'QuickSand M'; src: url('./assets/fonts/QuickSand/QuickSand-Medium.ttf') format('truetype'); }
+@font-face { font-family: 'Red Hat'; src: url('./assets/fonts/RedHat/RedHatDisplay-Regular.ttf') format('truetype'); }
+@font-face { font-family: 'Red Hat L'; src: url('./assets/fonts/RedHat/RedHatDisplay-Light.ttf') format('truetype'); }
+@font-face { font-family: 'Red Hat M'; src: url('./assets/fonts/RedHat/RedHatDisplay-Medium.ttf') format('truetype'); }
+@font-face { font-family: 'Wix'; src: url('./assets/fonts/Wix/Wix.ttf') format('truetype'); }
 
 
 :root {
@@ -14,3 +17,40 @@ body {
     margin: auto;
     background-color: var(--c-dark);
 }
+
+
+
+.navbar{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    height: 64px; width: 100%; 
+    top: 0;
+    z-index: 999;
+
+    .nav-container {
+        display: flex;
+        height: auto; width: 100%; 
+
+        .nav-mode-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 35px; width: 35px;
+            margin: auto 15px auto auto;
+            border-radius: 5px;
+            transform: rotate(45deg);
+            
+            .mode-img {
+                height: 25px; width: 25px;
+                transform: rotate(-45deg);
+            }
+        }
+    }
+
+
+
+
+}
+
+

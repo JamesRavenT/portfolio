@@ -77,7 +77,7 @@ export function Introduction() {
                     <div className='divider'></div>
                     <span className='container-contact'>
                         <img src={contactIcon} alt="icon"/>
-                        <p>+639068310261</p>
+                        {/* <p>+639068310261</p> */}
                     </span>
                 </div>
                 <div className='container-btn'>
