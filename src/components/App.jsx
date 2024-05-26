@@ -11,7 +11,7 @@ export default function App() {
     const [isDark, setMode] = useState(false)
     const toggleIcon = isDark? '/assets/icons/dark.png'  : '/assets/icons/light.png' 
     const webTheme = isDark? true : false;
-
+    
     const backgroundColor = isDark? '#131313' : '#f2f3f4'
     const toggleColor = isDark? '#f2f3f4' : '#232323'
     const iconHeight = isDark? '20px' : '25px'
@@ -20,15 +20,18 @@ export default function App() {
     let style = {
 
         navbar : {
-            backgroundColor: backgroundColor
+            backgroundColor: backgroundColor,
+            transition: '1s'
         },
         
         container : {
-            border: '1px solid' + toggleColor
+            border: '1px solid' + toggleColor,
+            transition: '1s'
         },
 
         icon: {
-            height: iconHeight, width: iconWidth
+            height: iconHeight, width: iconWidth,
+            transition: '1s'
         }
 
 
@@ -39,7 +42,7 @@ export default function App() {
             <div className='navbar'
                  style={style.navbar}>
                 <div className='nav-container'>
-                    <Navbar theme={webTheme}/>
+                    <Navbar color={webTheme}/>
                     <div className='nav-mode-container'
                          style={style.container}
                          onClick={() => { 
@@ -52,7 +55,7 @@ export default function App() {
                 </div>
             </div>
             </div>      
-            <Header />
+            <Header color={webTheme}/>
             <Body />
         </div>
     )

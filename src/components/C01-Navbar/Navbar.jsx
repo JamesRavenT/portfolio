@@ -5,15 +5,16 @@ import './layout/navbar-760x.css'
 import './layout/navbar-1025x.css'
 import './layout/navbar-1280x.css'
 
-export default function Navbar(pkg){
+export default function Navbar(theme){
 
-    const isDark = pkg.theme
+    const isDark = theme.color
     const icon = isDark? '/assets/icons/dark/raven.png' : '/assets/icons/raven.png';
     const color = isDark? '#f2f3f4' : '#232323'
 
     let style = {
         textColor : {
-            color: color
+            color: color,
+            transition: '1s'
         }
     }
     return (
