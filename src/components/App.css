@@ -12,11 +12,15 @@
 :root {
     --c-light: #f2f3f4;
     --c-dark: #232323;
+    overflow-x: hidden;
+
 }
 
 body {
     display: block;
     margin: auto;
+    box-sizing: border-box;
+    overflow-x: hidden;
     background-color: var(--c-dark);
 }
 
@@ -32,7 +36,7 @@ body {
 
     .nav-container {
         display: flex;
-        height: auto; width: 100%; 
+        height: auto; width:100%; 
 
         .nav-mode-container {
             display: flex;

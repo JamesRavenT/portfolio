@@ -1,0 +1,242 @@
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .header {
+        display: block;
+        height: auto; width: 100%;
+        box-sizing: border-box;
+        margin-top: 64px;
+       
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    
+        .container-welcome {
+            display: flex;
+
+            .welcome-ds-line {
+                height: 1px; width: 70%;
+                margin: 10px 5px;
+            }
+        
+            .welcome-text {
+                font-size: 13px;
+                font-family: 'QuickSand M';    
+                text-align: center; 
+                height: auto; width: 500px;
+                margin: 0px 20px;
+            }
+        }
+
+        .container-intro {
+            display: flex;
+
+            /* Left Block */
+            .container-leftblock {
+                height: auto; width: 50%;
+                margin-left: 100px;
+
+                .greeting {
+                    font-family: 'Wix';
+                    margin-top: 100px;
+                    font-size: 18px;
+                }
+                
+                .name {
+                    font-family: 'Red Hat M';
+                    margin: -5px 0 -5px 0;
+                    font-size: 40px;
+                }
+                
+                .job-description {
+                    font-family: 'Wix';
+                    font-size: 18px;
+                    text-align: justify;
+                    padding-right: 100px;
+                }
+
+                .container-socials-n-contact {
+                    height: 30px; width: 100%;
+                    display: flex;
+        
+                    .container-socials {
+                        display: flex;
+                        height: auto; width: 150px;
+                    
+                        .list-socials {
+                            display: flex;
+                            flex-direction: row;
+                            list-style: none;
+                            margin: 0 auto auto -40px;
+                        
+                            .item-socials {
+                                margin: auto 15px auto auto;
+                            
+                                .icon-socials {
+                                    height: 32px; width: 32px;
+                                }
+                            }
+                            
+                        }
+                    }
+        
+                    .divider {
+                        height: 100%; width: auto;
+                        width : 0.5px;
+                        background-color: #232323;
+                    
+                    }
+        
+                    .container-contact {
+                        display: flex;
+                    
+                        .icon-contact {
+                            height: 22px; width: 22px;
+                            margin: auto 8px auto 15px;
+                        }
+                        
+                        .text-contact {
+                            font-family: 'Red Hat';
+                            font-size: 18px;
+                            text-align: center;
+                            margin: auto 0 auto auto;
+                        }
+            
+                    }        
+                
+                }
+        
+                .container-btn {
+                    display: flex;
+                    height: 50px; width: 185px;
+                    margin: 20px 0px 50px 0px;
+                    border-radius: 2px;
+                
+                    .text-btn {
+                        font-family: 'QuickSand M';
+        
+                        font-size: 13px;
+                        margin: auto auto auto auto;
+                    }
+                
+                    .icon-btn {
+                        height: 20px; width: 20px;
+                        margin: auto auto auto 0;
+                        transition: 2s;
+                    }
+                }
+            }
+
+            /* Right Block */
+            .container-rightblock {
+
+                height: auto; width: 50%;
+                margin: auto;
+                text-align: center;
+                align-self: center;
+                
+                .wrapper-box {
+                
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    transform: rotate(45deg);
+                    perspective: 1200px;
+                    
+                    
+                    .container-box {
+                        position: relative;
+                        height: 150px;
+                        width: 150px;
+                        transform-style: preserve-3d;
+                        animation: animate 5s infinite;
+
+                        .box {
+                            position: absolute;
+                            height: 150px; width: 150px;
+                            border: 2px solid black;
+                            transition: all 1s;
+                        }
+        
+                        #front {
+                            transform: translateZ(120px);
+                        }
+            
+                        #back {
+                            transform: translateZ(-120px);
+                        }
+            
+                        #left {
+                            right: 120px;
+                            transform: rotateY(-90deg);
+                        }
+            
+                        #right {
+                            left: 120px;
+                            transform: rotateY(90deg);
+                        }
+            
+                        #top {
+                            bottom: 120px;
+                            transform: rotateX(90deg);
+                        }
+            
+                        #bottom {
+                            top: 120px;
+                            transform: rotateX(-90deg);
+                        }
+
+                        
+                    }
+                    
+                    :hover {
+
+                        #front {
+                            transform: translateZ(75px);
+                        }
+            
+                        #back {
+                            transform: translateZ(-75px);
+                        }
+            
+                        #left {
+                            right: 75px;
+        
+                        }
+            
+                        #right {
+                            left: 75px;
+
+                        }
+            
+                        #top {
+                            bottom: 75px;
+
+                        }
+            
+                        #bottom {
+                            top: 75px;
+                        }
+                    
+                    } 
+                }
+
+
+                
+            
+            }
+            
+        }
+
+
+    }
+
+    @keyframes animate {
+        0% {
+            transform: rotate3d(0,0,0,0);
+        }
+        100% {
+            transform: rotate3d(1,1,1, -360deg);
+        }    
+
+    }
+}
+
+

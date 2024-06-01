@@ -1,0 +1,4 @@
+export function getValue(x){
+    const item = x;
+    return item;
+}
