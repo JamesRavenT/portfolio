@@ -1,10 +1,10 @@
 import React from 'react';
-import './layout/navbar-320x.css'
-import './layout/navbar-375x.css'
-import './layout/navbar-425x.css'
-import './layout/navbar-768x.css'
-import './layout/navbar-1025x.css'
-import './layout/navbar-1280x.css'
+import 'layout/navbar-320x.css'
+import 'layout/navbar-375x.css'
+import 'layout/navbar-425x.css'
+import 'layout/navbar-768x.css'
+import 'layout/navbar-1025x.css'
+import 'layout/navbar-1280x.css'
 
 export default function Navbar(theme){
 
