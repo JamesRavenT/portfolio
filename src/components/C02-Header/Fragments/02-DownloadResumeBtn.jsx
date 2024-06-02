@@ -3,7 +3,7 @@ import React from "react";
 export function DownloadBtn(pkg) {
     const isDark = pkg.theme
     const style = pkg.layout
-    const viewIcon = isDark? '/assets/icons/dark/download.png' : '/assets/icons/download.png'
+    const viewIcon = isDark? 'assets/icons/dark/download.png' : 'assets/icons/download.png'
     return(
         <>
         <div className='container-btn'

@@ -6,18 +6,18 @@ export function SocialsNContact(pkg) {
     const style = pkg.layout
     //Variables
     const linkedInLink = 'https://www.linkedin.com/in/james-raven-tabag-004799247/'
-    const linkedInIcon = '/assets/icons/linkedin.png'
+    const linkedInIcon = 'assets/icons/linkedin.png'
     const linkedInToolTip = 'LinkedIn'
     //--
     const githubLink = 'https://github.com/JamesRavenT'
     const githubToolTip = 'GitHub'
     //--
     const gmailLink = 'https://mail.google.com/mail/?view=cm&fs=1&to=jraven.tabag@gmail.com'
-    const gmailIcon = '/assets/icons/gmail.png'
+    const gmailIcon = 'assets/icons/gmail.png'
     const gmailToolTip = 'jraven.tabag@gmail.com'
     //--
-    const githubIcon = isDark ? '/assets/icons/dark/github.png' : '/assets/icons/github.png'
-    const contactIcon = isDark ? '/assets/icons/dark/call.png' : '/assets/icons/call.png' 
+    const githubIcon = isDark ? 'assets/icons/dark/github.png' : 'assets/icons/github.png'
+    const contactIcon = isDark ? 'assets/icons/dark/call.png' : 'assets/icons/call.png' 
     return(
         <>
         <div className='container-socials-n-contact'>
