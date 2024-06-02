@@ -1,11 +1,11 @@
-@font-face { font-family: 'QuickSand'; src: url('./assets/fonts/QuickSand/Quicksand-Regular.ttf') format('truetype'); }
-@font-face { font-family: 'QuickSand L'; src: url('./assets/fonts/QuickSand/Quicksand-Light.ttf') format('truetype'); }
-@font-face { font-family: 'QuickSand M'; src: url('./assets/fonts/QuickSand/Quicksand-Medium.ttf') format('truetype'); }
-@font-face { font-family: 'Red Hat'; src: url('./assets/fonts/RedHat/RedHatDisplay-Regular.ttf') format('truetype'); }
-@font-face { font-family: 'Red Hat L'; src: url('./assets/fonts/RedHat/RedHatDisplay-Light.ttf') format('truetype'); }
-@font-face { font-family: 'Red Hat M'; src: url('./assets/fonts/RedHat/RedHatDisplay-Medium.ttf') format('truetype'); }
-@font-face { font-family: 'WallPoet'; src: url('./assets/fonts/WallPoet/Wallpoet-Regular.ttf') format('truetype')}
-@font-face { font-family: 'Wix'; src: url('./assets/fonts/Wix/Wix.ttf') format('truetype'); }
+@font-face { font-family: 'QuickSand'; src: url('assets/fonts/QuickSand/Quicksand-Regular.ttf') format('truetype'); }
+@font-face { font-family: 'QuickSand L'; src: url('assets/fonts/QuickSand/Quicksand-Light.ttf') format('truetype'); }
+@font-face { font-family: 'QuickSand M'; src: url('assets/fonts/QuickSand/Quicksand-Medium.ttf') format('truetype'); }
+@font-face { font-family: 'Red Hat'; src: url('assets/fonts/RedHat/RedHatDisplay-Regular.ttf') format('truetype'); }
+@font-face { font-family: 'Red Hat L'; src: url('assets/fonts/RedHat/RedHatDisplay-Light.ttf') format('truetype'); }
+@font-face { font-family: 'Red Hat M'; src: url('assets/fonts/RedHat/RedHatDisplay-Medium.ttf') format('truetype'); }
+@font-face { font-family: 'WallPoet'; src: url('assets/fonts/WallPoet/Wallpoet-Regular.ttf') format('truetype')}
+@font-face { font-family: 'Wix'; src: url('assets/fonts/Wix/Wix.ttf') format('truetype'); }
 
 
 

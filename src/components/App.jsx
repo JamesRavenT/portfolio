@@ -10,13 +10,13 @@ export default function App() {
 
     //LIGHT & DARKMODE
     const [isDark, setMode] = useState(false)
-    const toggleIcon = isDark? '/assets/icons/dark.png'  : '/assets/icons/light.png' 
+    const toggleIcon = isDark? 'assets/icons/dark.png'  : 'assets/icons/light.png' 
     const webTheme = isDark? true : false;
     
     const backgroundColor = isDark? '#131313' : '#c3c3c3'
     const toggleColor = isDark? '#f2f3f4' : '#232323'
     const iconHeight = isDark? '20px' : '25px'
-    const iconWidth = isDark? '20px' : '25px'
+    const iconWidth = isDark? '20px' : '25px'   
     
     let style = {
 
