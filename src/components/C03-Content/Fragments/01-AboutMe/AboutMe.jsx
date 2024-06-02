@@ -35,6 +35,7 @@ export function AboutMe(pkg) {
                         <Introduction theme={style}/>
                         <div className='content-body-divider' style={style.block}></div>
                         <Background theme={style} />
+                        <div className='content-body-divider-half'></div>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,21 @@
+@media (min-width: 1024px) and (max-width: 1279px) {
+
+    .footer {
+        display: flex;
+        position: relative;
+        overflow: hidden;
+        box-sizing: border-box;
+        height: 100px; width: 100%; 
+        padding: 25px 5px 25px 5px;
+        margin: auto;
+    
+        .copyright {
+            font-size: 15px;
+            font-family: 'QuickSand';
+            margin: auto;
+        }
+    }
+  
+}
+
+

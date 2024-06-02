@@ -16,7 +16,7 @@ export function Work03(pkg) {
                 <div className='experience-header-text'>
                     <p className='experience-role' style={style.color}>Assistant Web Developer</p>
                     <p className='experience-company' style={style.color}>Keep d' Books - Bacoor, Cavite</p>  
-                    <p className='experience-date' style={style.color}>June 2023 - July 2023</p>
+                    <p className='experience-date' style={style.color}>Oct 2018 - Nov 2018</p>
                 </div>
                 
             </div>
@@ -24,29 +24,22 @@ export function Work03(pkg) {
             <div className='experience-divider'></div>
             <p className='experience-category' style={style.color}>Job Description</p>
             <p className='experience-description' style={style.color}>
-                Test
+                My Senior High Work Immersion which took 80 hours to complete. At first, me and my colleagues were assigned to assigned to encoding until the manager requested us to develop a work order management system for them.
                 </p>
             <p className='experience-category' style={style.color}>Responsibilities</p>
             <ul className='experience-responsibilities-list'>
                 <li className='experience-responsibilities-item'>
                     <div className='experience-responsibilities-item-container'>
                     <div className='experience-responsibilities-item-bullet' style={style.block}></div>
-                    <p className='experience-responsibilities-item-text' style={style.color}>Test</p>
+                    <p className='experience-responsibilities-item-text' style={style.color}>Encoded receipts and transactions.</p>
                     </div>
                 </li>
                 <li className='experience-responsibilities-item'>
                     <div className='experience-responsibilities-item-container'>
                     <div className='experience-responsibilities-item-bullet' style={style.block}></div>
-                    <p className='experience-responsibilities-item-text' style={style.color}>Test</p>
+                    <p className='experience-responsibilities-item-text' style={style.color}>Developed a work order management system.</p>
                     </div>
                 </li>
-                <li className='experience-responsibilities-item'>
-                    <div className='experience-responsibilities-item-container'>
-                    <div className='experience-responsibilities-item-bullet' style={style.block}></div>
-                    <p className='experience-responsibilities-item-text' style={style.color}>Test</p>
-                    </div>
-                </li>
-
             </ul>
         </div>
         </>

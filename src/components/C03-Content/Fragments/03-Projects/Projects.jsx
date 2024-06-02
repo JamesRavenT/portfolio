@@ -32,7 +32,7 @@ export function Projects(pkg) {
                  style={style.borderBottom}>
                 <div className='content-body-slide'>
                     <div className='content-body-panel'>
-                    <div className='content-body-divider-half'></div>
+                        <div className='content-body-divider-half'></div>
                         <div className='projects-container'>
                             <div className='project-header'>
                                 <div className='project-icon' style={style.container}>
@@ -50,26 +50,32 @@ export function Projects(pkg) {
                             <div className='project-divider'></div>
                             <p className='project-category' style={style.color}>Description</p>
                             <p className='project-description' style={style.color}>
-                                Test
+                                This Website. Developed in HTML5, CSS3 and ReactJS. Planned features includes a chatbot, and a PC client for easier data management of Skills, Projects and Experiences.
                                 </p>
                             <p className='project-category' style={style.color}>Features</p>
                             <ul className='project-features-list'>
                                 <li className='project-features-item'>
                                     <div className='project-features-item-container'>
                                     <div className='project-features-item-bullet' style={style.block}></div>
-                                    <p className='project-features-item-text' style={style.color}>Test</p>
+                                    <p className='project-features-item-text' style={style.color}>Information about me, displayed with a user-friendly UI.</p>
                                     </div>
                                 </li>
                                 <li className='project-features-item'>
                                     <div className='project-features-item-container'>
                                     <div className='project-features-item-bullet' style={style.block}></div>
-                                    <p className='project-features-item-text' style={style.color}>Test</p>
+                                    <p className='project-features-item-text' style={style.color}>Night/Day mode switch.</p>
                                     </div>
                                 </li>
                                 <li className='project-features-item'>
                                     <div className='project-features-item-container'>
                                     <div className='project-features-item-bullet' style={style.block}></div>
-                                    <p className='project-features-item-text' style={style.color}>Test</p>
+                                    <p className='project-features-item-text' style={style.color}>Download my resume on site.</p>
+                                    </div>
+                                </li>
+                                <li className='project-features-item'>
+                                    <div className='project-features-item-container'>
+                                    <div className='project-features-item-bullet' style={style.block}></div>
+                                    <p className='project-features-item-text' style={style.color}>A rotating and hoverable cube made of pure CSS.</p>
                                     </div>
                                 </li>
                             </ul>
@@ -92,30 +98,55 @@ export function Projects(pkg) {
                             <div className='project-divider'></div>
                             <p className='project-category' style={style.color}>Description</p>
                             <p className='project-description' style={style.color}>
-                                Test
+                                My undergraduate final-year thesis. An mPOS designed for dining businesses, integrated with a machine-learning algorithm to predict consumer behavior. Done in collaboration with <a href='https://www.linkedin.com/in/jacob-saucelo-594622286/' target='_blank' rel='noopener noreferrer' style={style.linkcolor}>
+                                    Jacob Saucelo
+                                </a> 
+                                's website for the same beneficiary.
                                 </p>
                             <p className='project-category' style={style.color}>Features</p>
                             <ul className='project-features-list'>
                                 <li className='project-features-item'>
                                     <div className='project-features-item-container'>
                                     <div className='project-features-item-bullet' style={style.block}></div>
-                                    <p className='project-features-item-text' style={style.color}>Test</p>
+                                    <p className='project-features-item-text' style={style.color}>AI that recommends popular combinations of products on the device.</p>
                                     </div>
                                 </li>
                                 <li className='project-features-item'>
                                     <div className='project-features-item-container'>
                                     <div className='project-features-item-bullet' style={style.block}></div>
-                                    <p className='project-features-item-text' style={style.color}>Test</p>
+                                    <p className='project-features-item-text' style={style.color}>Data is in sync with <a href='https://www.linkedin.com/in/jacob-saucelo-594622286/' target='_blank' rel='noopener noreferrer' style={style.linkcolor}>
+                                    Jacob Saucelo
+                                </a> 
+                                's website to recommend products.</p>
                                     </div>
                                 </li>
                                 <li className='project-features-item'>
                                     <div className='project-features-item-container'>
                                     <div className='project-features-item-bullet' style={style.block}></div>
-                                    <p className='project-features-item-text' style={style.color}>Test</p>
+                                    <p className='project-features-item-text' style={style.color}>mPOS features such as Cart, Refund, Discount and Table Management.</p>
+                                    </div>
+                                </li>
+                                <li className='project-features-item'>
+                                    <div className='project-features-item-container'>
+                                    <div className='project-features-item-bullet' style={style.block}></div>
+                                    <p className='project-features-item-text' style={style.color}>Inventory Management system & Sales Report.</p>
+                                    </div>
+                                </li>
+                                <li className='project-features-item'>
+                                    <div className='project-features-item-container'>
+                                    <div className='project-features-item-bullet' style={style.block}></div>
+                                    <p className='project-features-item-text' style={style.color}>Data is Syncable with different devices.</p>
+                                    </div>
+                                </li>
+                                <li className='project-features-item'>
+                                    <div className='project-features-item-container'>
+                                    <div className='project-features-item-bullet' style={style.block}></div>
+                                    <p className='project-features-item-text' style={style.color}>Can fully operate offline. Data will be synced once online.</p>
                                     </div>
                                 </li>
                             </ul>
                         </div>
+                        <div className='content-body-divider-half'></div>
                     </div>
                 </div>
             </div>

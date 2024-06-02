@@ -1,12 +1,19 @@
 import React from 'react'
 import { useState } from 'react'
-import './layout/content.css'
 import { getValue } from '../../_lib/helper/value-getter'
 import { bodyContent, showCategory, hideCategory} from '../../_lib/styles/style-content.js'
 import { AboutMe } from './Fragments/01-AboutMe/AboutMe.jsx'
 import { Skills } from './Fragments/02-Skills/Skills.jsx'
 import { Projects } from './Fragments/03-Projects/Projects.jsx'
 import { Experiences } from './Fragments/04-Experiences/Experiences.jsx'
+
+import './layout/content-320x.css'
+import './layout/content-375x.css'
+import './layout/content-425x.css'
+import './layout/content-768x.css'
+import './layout/content-1024x.css'
+import './layout/content-1280x.css'
+import './layout/content-1440x.css'
 
 
 export default function Content(pkg) {
@@ -33,16 +40,17 @@ export function ContentSelector(pkg) {
 
     const[selectedCategory, setCategory] = useState('About Me');
     const isDark = pkg.color
-    const bg = isDark? '#f2f3f4' : '#232323'
+    const line = isDark? '#f2f3f4' : '#232323'
 
-    const aboutmeIconLight = './assets/icons/profile.png'
-    const aboutmeIconDark = './assets/icons/dark/profile.png'
-    const skillsIconLight = './assets/icons/skills.png'
-    const skillsIconDark = './assets/icons/dark/skills.png'
-    const projectsIconLight = './assets/icons/portfolio.png'
-    const projectsIconDark = './assets/icons/dark/portfolio.png'
-    const experienceIconLight = './assets/icons/experience.png'
-    const experienceIconDark = './assets/icons/dark/experience.png'
+    const aboutmeIconLight = 'assets/icons/profile.png'
+    const aboutmeIconDark = 'assets/icons/dark/profile.png'
+    const skillsIconLight = 'assets/icons/skills.png'
+    const skillsIconDark = 'assets/icons/dark/skills.png'
+    const projectsIconLight = 'assets/icons/portfolio.png'
+    const projectsIconDark = 'assets/icons/dark/portfolio.png'
+    const experienceIconLight = 'assets/icons/experience.png'
+    const experienceIconDark = 'assets/icons/dark/experience.png'
+    
     
     const lightMode = isDark? {visibility : {position: 'absolute', zIndex: '2', opacity: '0'}} :  {visibility : {opacity: '1', transition: '1s'}}  
     const darkmode = isDark? {visibility : {opacity: '1', transition: '1s'}} :  {visibility : {position: 'absolute', zIndex: '2', opacity: '0', }} 
@@ -50,27 +58,23 @@ export function ContentSelector(pkg) {
 
     let style = {
         line01 : {
-            backgroundColor: bg,
-            width: '120px',
+            backgroundColor: line,
             transition: '1s'
         },
         line02 : {
-            backgroundColor: bg,
-            width: '10px',
+            backgroundColor: line,
             transition: '1s'
         },
         line03 : {
-            backgroundColor: bg,
-            width: '10px',
+            backgroundColor: line,
             transition: '1s'
         },
         line04 : {
-            background: bg,
-            width: '68%',
+            background: line,
             transition: '1s'
         },
         diamond : {
-            border: '1px solid' + bg,
+            border: '1px solid' + line,
             transition: '1s'
         },
 
@@ -79,43 +83,54 @@ export function ContentSelector(pkg) {
     return(
         <>
             <div className='content-selector'>
-                <div className='content-selector-ds'
+                <div className='content-selector-ds-start'
                      style={style.line01}>
                      </div>
-                <div className='content-selector-diamond'
-                     style={style.diamond}
-                     onClick={() => setCategory('About Me')}>
-                     <img className='content-selector-icon' src={aboutmeIconLight} style={lightMode.visibility} alt='icon '></img>
-                     <img className='content-selector-icon' src={aboutmeIconDark} style={darkmode.visibility} alt='icon '></img>
-                     </div>
-                <div className='content-selector-ds'
+                <div className='content-selector-diamond-container'>
+                    <div className='content-selector-diamond'
+                        style={style.diamond}
+                        onClick={() => setCategory('About Me')}>
+                        <img className='content-selector-icon' src={aboutmeIconLight} style={lightMode.visibility} alt='icon '></img>
+                        <img className='content-selector-icon' src={aboutmeIconDark} style={darkmode.visibility} alt='icon '></img>
+                    </div>
+                </div>
+              
+                <div className='content-selector-ds-mid'
                      style={style.line02}>
                      </div>
-                <div className='content-selector-diamond'
-                     style={style.diamond}
-                     onClick={() => setCategory('Skills')}>
-                     <img className='content-selector-icon' src={skillsIconLight} style={lightMode.visibility} alt='icon '></img>
-                     <img className='content-selector-icon' src={skillsIconDark} style={darkmode.visibility} alt='icon '></img>
-                     </div>                
-                <div className='content-selector-ds'
+                <div className='content-selector-diamond-container'>
+                    <div className='content-selector-diamond'
+                        style={style.diamond}
+                        onClick={() => setCategory('Skills')}>
+                        <img className='content-selector-icon' src={skillsIconLight} style={lightMode.visibility} alt='icon '></img>
+                        <img className='content-selector-icon' src={skillsIconDark} style={darkmode.visibility} alt='icon '></img>
+                     </div>        
+                </div>
+                        
+                <div className='content-selector-ds-mid'
                      style={style.line03}>
                      </div>
-                <div className='content-selector-diamond'
-                     style={style.diamond}
-                     onClick={() => setCategory('Projects')}>
-                     <img className='content-selector-icon' src={projectsIconLight} style={lightMode.visibility} alt='icon '></img>
-                     <img className='content-selector-icon' src={projectsIconDark} style={darkmode.visibility} alt='icon '></img>
-                     </div>
-                <div className='content-selector-ds'
+                <div className='content-selector-diamond-container'>
+                    <div className='content-selector-diamond'
+                        style={style.diamond}
+                        onClick={() => setCategory('Projects')}>
+                        <img className='content-selector-icon' src={projectsIconLight} style={lightMode.visibility} alt='icon '></img>
+                        <img className='content-selector-icon' src={projectsIconDark} style={darkmode.visibility} alt='icon '></img>
+                    </div>
+                </div>
+                <div className='content-selector-ds-mid'
                      style={style.line03}>
                      </div>
-                <div className='content-selector-diamond'
-                     style={style.diamond}
-                     onClick={() => setCategory('Experiences')}>
-                     <img className='content-selector-icon' src={experienceIconLight} style={lightMode.visibility} alt='icon '></img>
-                     <img className='content-selector-icon' src={experienceIconDark} style={darkmode.visibility} alt='icon '></img>
+                <div className='content-selector-diamond-container'>
+                    <div className='content-selector-diamond'
+                        style={style.diamond}
+                        onClick={() => setCategory('Experiences')}>
+                        <img className='content-selector-icon' src={experienceIconLight} style={lightMode.visibility} alt='icon '></img>
+                        <img className='content-selector-icon' src={experienceIconDark} style={darkmode.visibility} alt='icon '></img>
                      </div>
-                <div className='content-selector-ds'
+                </div>
+            
+                <div className='content-selector-ds-end'
                      style={style.line04}>
                      </div>
             </div>

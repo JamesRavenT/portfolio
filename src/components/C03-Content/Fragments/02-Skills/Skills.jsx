@@ -3,25 +3,25 @@ import React from "react"
 export function Skills(pkg) {
     const style = pkg.theme
     //WEBDEV
-    const webdevIcon = '/assets/icons/webdev.png'
-    const vscodeIcon = './assets/icons/vscode.png'
-    const mongoDBIcon = '/assets/icons/mongodb.png'
-    const html5Icon = './assets/icons/html5.png'
-    const css3Icon = './assets/icons/css3.png'    
-    const jsIcon = './assets/icons/javascript.png'
-    const nodeJSIcon = './assets/icons/nodejs.png'
-    const reactJSIcon = './assets/icons/reactjs.png'
+    const webdevIcon = 'assets/icons/webdev.png'
+    const vscodeIcon = 'assets/icons/vscode.png'
+    const mongoDBIcon = 'assets/icons/mongodb.png'
+    const html5Icon = 'assets/icons/html5.png'
+    const css3Icon = 'assets/icons/css3.png'    
+    const jsIcon = 'assets/icons/javascript.png'
+    const nodeJSIcon = 'assets/icons/nodejs.png'
+    const reactJSIcon = 'assets/icons/reactjs.png'
     //ANDROID
-    const anddevIcon = './assets/icons/mobdev.png'
-    const andstdIcon = './assets/icons/androidstd.png'
-    const realmIcon = './assets/icons/realm.png'
-    const fsIcon = './assets/icons/firebase.png'
-    const javaIcon = './assets/icons/java.png' 
+    const anddevIcon = 'assets/icons/mobdev.png'
+    const andstdIcon = 'assets/icons/androidstd.png'
+    const realmIcon = 'assets/icons/realm.png'
+    const fsIcon = 'assets/icons/firebase.png'
+    const javaIcon = 'assets/icons/java.png' 
     //DESKTOP
-    const deskdevIcon = './assets/icons/windows.png'
-    const qtIcon = './assets/icons/qt.png'
-    const cppIcon = '/assets/icons/c-plusplus.png'
-    const csharpIcon = './assets/icons/c-sharp.png'
+    const deskdevIcon = 'assets/icons/windows.png'
+    const qtIcon = 'assets/icons/qt.png'
+    const cppIcon = 'assets/icons/c-plusplus.png'
+    const csharpIcon = 'assets/icons/c-sharp.png'
     
     return(
         <>
@@ -52,8 +52,10 @@ export function Skills(pkg) {
                     <div className='content-body-divider-half'></div>
                         <div className='skills-container'>
                             <div className='skill-header'>
-                                <div className='skill-bar' style={style.bg}></div>
-                                <p className='skill-name' style={style.color}>Web Development</p>
+                                <div className='skill-diamond' style={style.container}>
+                                    <img className='skill-icon' src={webdevIcon} alt='icon'></img>
+                                </div>
+                                <p className='skill-name' style={{...style.color, ...style.border}}>Web Development</p>
                             </div>
                             <p className='skill-category' style={style.color}>Related Skills</p>
                             <ul className='skill-list'>
@@ -104,8 +106,10 @@ export function Skills(pkg) {
                         <div className='content-body-divider' style={style.block}></div>
                         <div className='skills-container'>
                             <div className='skill-header'>
-                                <div className='skill-bar' style={style.bg}></div>
-                                <p className='skill-name' style={style.color}>Mobile App Development</p>
+                                <div className='skill-diamond' style={style.container}>
+                                    <img className='skill-icon' src={anddevIcon} alt='icon'></img>
+                                </div>
+                                <p className='skill-name' style={{...style.color, ...style.border}}>Mobile App Development</p>
                             </div>
                             <p className='skill-category' style={style.color}>Related Skills</p>
                             <ul className='skill-list'>
@@ -138,8 +142,10 @@ export function Skills(pkg) {
                         <div className='content-body-divider' style={style.block}></div>
                         <div className='skills-container'>
                             <div className='skill-header'>
-                                <div className='skill-bar' style={style.bg}></div>
-                                <p className='skill-name' style={style.color}>Desktop App Development</p>
+                                 <div className='skill-diamond' style={style.container}>
+                                    <img className='skill-icon' src={deskdevIcon} alt='icon'></img>
+                                </div>
+                                <p className='skill-name' style={{...style.color, ...style.border}}>Desktop App Development</p>
                             </div>
                             <p className='skill-category' style={style.color}>Related Skills</p>
                             <ul className='skill-list'>
@@ -163,6 +169,7 @@ export function Skills(pkg) {
                                 </li>
                             </ul>
                         </div>
+                        <div className='content-body-divider-half'></div>
                     </div>
                 </div>
             </div>

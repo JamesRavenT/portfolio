@@ -1,0 +1,18 @@
+@media (min-width: 375px) and (max-width: 424px) {
+
+    .footer {
+        display: flex;
+        position: relative;
+        overflow: hidden;
+        box-sizing: border-box;
+        height: 100px; width: 100%; 
+        padding: 25px 5px 25px 5px;
+        margin: auto;
+    
+        .copyright {
+            font-size: 10px;
+            font-family: 'QuickSand';
+            margin: auto;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+@media (max-width: 319px) {
+
+    .footer {
+        display: flex;
+        position: relative;
+        overflow: hidden;
+        box-sizing: border-box;
+        height: 100px; width: 100%; 
+        padding: 25px 5px 25px 5px;
+        margin: auto;
+    
+        .copyright {
+            font-size: 7px;
+            font-family: 'QuickSand';
+            margin: auto;
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .footer {
+        display: flex;
+        position: relative;
+        overflow: hidden;
+        box-sizing: border-box;
+        height: 100px; width: 100%; 
+        padding: 25px 5px 25px 5px;
+        margin: auto;
+    
+        .copyright {
+            font-size: 7px;
+            font-family: 'QuickSand';
+            margin: auto;
+        }
+    }
+    
+}

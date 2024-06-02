@@ -1,11 +1,64 @@
-@font-face { font-family: 'QuickSand'; src: url('assets/fonts/QuickSand/Quicksand-Regular.ttf') format('truetype'); }
-@font-face { font-family: 'QuickSand L'; src: url('assets/fonts/QuickSand/Quicksand-Light.ttf') format('truetype'); }
-@font-face { font-family: 'QuickSand M'; src: url('assets/fonts/QuickSand/Quicksand-Medium.ttf') format('truetype'); }
-@font-face { font-family: 'Red Hat'; src: url('assets/fonts/RedHat/RedHatDisplay-Regular.ttf') format('truetype'); }
-@font-face { font-family: 'Red Hat L'; src: url('assets/fonts/RedHat/RedHatDisplay-Light.ttf') format('truetype'); }
-@font-face { font-family: 'Red Hat M'; src: url('assets/fonts/RedHat/RedHatDisplay-Medium.ttf') format('truetype'); }
-@font-face { font-family: 'WallPoet'; src: url('assets/fonts/WallPoet/Wallpoet-Regular.ttf') format('truetype')}
-@font-face { font-family: 'Wix'; src: url('assets/fonts/Wix/Wix.ttf') format('truetype'); }
+@font-face { 
+    font-family: 'QuickSand';     
+    src: url("https://db.onlinewebfonts.com/t/7f9edfb12c4146a51e3a8b95042aeb26.eot");
+    src: url("https://db.onlinewebfonts.com/t/7f9edfb12c4146a51e3a8b95042aeb26.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/7f9edfb12c4146a51e3a8b95042aeb26.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/7f9edfb12c4146a51e3a8b95042aeb26.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/7f9edfb12c4146a51e3a8b95042aeb26.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/7f9edfb12c4146a51e3a8b95042aeb26.svg#Quicksand-Regular")format("svg");
+}
+@font-face { 
+    font-family: 'QuickSand L'; 
+    src: url("https://db.onlinewebfonts.com/t/0f21c4dad424ab23fa879bb27d87ba3a.eot");
+    src: url("https://db.onlinewebfonts.com/t/0f21c4dad424ab23fa879bb27d87ba3a.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/0f21c4dad424ab23fa879bb27d87ba3a.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/0f21c4dad424ab23fa879bb27d87ba3a.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/0f21c4dad424ab23fa879bb27d87ba3a.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/0f21c4dad424ab23fa879bb27d87ba3a.svg#Quicksand-Light")format("svg");
+}
+
+@font-face { 
+    font-family: 'QuickSand M';   
+    src: url("https://db.onlinewebfonts.com/t/7f9edfb12c4146a51e3a8b95042aeb26.eot");
+    src: url("https://db.onlinewebfonts.com/t/7f9edfb12c4146a51e3a8b95042aeb26.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/7f9edfb12c4146a51e3a8b95042aeb26.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/7f9edfb12c4146a51e3a8b95042aeb26.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/7f9edfb12c4146a51e3a8b95042aeb26.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/7f9edfb12c4146a51e3a8b95042aeb26.svg#Quicksand-Regular")format("svg");
+}
+@font-face { 
+    font-family: 'Red Hat';     
+    src: url("https://db.onlinewebfonts.com/t/433a513cac0c0ddffe0edc4de3b1c1fc.eot");
+    src: url("https://db.onlinewebfonts.com/t/433a513cac0c0ddffe0edc4de3b1c1fc.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/433a513cac0c0ddffe0edc4de3b1c1fc.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/433a513cac0c0ddffe0edc4de3b1c1fc.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/433a513cac0c0ddffe0edc4de3b1c1fc.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/433a513cac0c0ddffe0edc4de3b1c1fc.svg#Red Hat Display")format("svg"); }
+@font-face { 
+    font-family: 'Red Hat L';     
+    src: url("https://db.onlinewebfonts.com/t/764cef59c31b803dec559424f19b0a27.eot");
+    src: url("https://db.onlinewebfonts.com/t/764cef59c31b803dec559424f19b0a27.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/764cef59c31b803dec559424f19b0a27.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/764cef59c31b803dec559424f19b0a27.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/764cef59c31b803dec559424f19b0a27.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/764cef59c31b803dec559424f19b0a27.svg#Red Hat Display")format("svg");
+}
+@font-face { 
+    font-family: 'Red Hat M';     
+    src: url("https://db.onlinewebfonts.com/t/433a513cac0c0ddffe0edc4de3b1c1fc.eot");
+    src: url("https://db.onlinewebfonts.com/t/433a513cac0c0ddffe0edc4de3b1c1fc.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/433a513cac0c0ddffe0edc4de3b1c1fc.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/433a513cac0c0ddffe0edc4de3b1c1fc.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/433a513cac0c0ddffe0edc4de3b1c1fc.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/433a513cac0c0ddffe0edc4de3b1c1fc.svg#Red Hat Display")format("svg"); }
+@font-face { 
+    font-family: 'Wix';  src: url("https://db.onlinewebfonts.com/t/716894859762e780b44f54aeb6233a34.eot");
+    src: url("https://db.onlinewebfonts.com/t/716894859762e780b44f54aeb6233a34.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/716894859762e780b44f54aeb6233a34.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/716894859762e780b44f54aeb6233a34.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/716894859762e780b44f54aeb6233a34.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/716894859762e780b44f54aeb6233a34.svg#Wix Madefor Display Regular")format("svg");
+}
 
 
 

@@ -34,13 +34,15 @@ export function Experiences(pkg) {
                  style={style.borderBottom}>
                 <div className='content-body-slide'>
                     <div className='content-body-panel'>
-                    <div className='content-body-divider-half'></div>
+                        <div className='content-body-divider-half'></div>
                         <Work01 theme={style} />
                         <div className='content-body-divider' style={style.block}></div>
                         <Work02 theme={style} />
                         <div className='content-body-divider' style={style.block}></div>
                         <Work03 theme={style} />
+                        <div className='content-body-divider-half'></div>
                     </div>
+                    
                 </div>
             </div>
         </div>

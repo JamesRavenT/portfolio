@@ -1,0 +1,493 @@
+@media (min-width: 1440px) {
+
+    .content {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        box-sizing: border-box;
+        min-height: auto; width: 100%; 
+        padding: 25px 5px 100px 5px;
+    
+        .content-selector {
+            display: flex;
+            align-items: center;
+            box-sizing: border-box;
+            height: 150px; width: 100%; 
+    
+            .content-selector-ds-start {
+                height: 1px; width: 160px;
+            }
+            
+            .content-selector-ds-mid {
+                height: 1px; width: 15px;
+            }
+
+            .content-selector-ds-end {
+               height: 1px; width: 100%;
+            }
+           
+            .content-selector-diamond-container{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .content-selector-diamond {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 75px; width: 75px;
+                    margin: auto 25px auto 20px;
+                    transform: rotate(45deg);
+        
+                    .content-selector-icon {
+                        height: 40px; width: 40px;
+                        transform: rotate(-45deg);
+                    }
+                }
+        
+                .content-selector-diamond:hover {
+                    height: 100px; width: 100px;
+                    margin: auto 25px auto 25px;
+                    transition: 0.5s;
+        
+                    & .content-selector-icon {
+                        height: 50px; width: 50px;
+                        transition: 1s;
+                    }
+                }
+    
+            }
+            
+    
+        }
+    
+        .content-header {
+            display: flex;
+            height: 75px; width: 100%; 
+            margin:  25px 0 0px 0;
+    
+            .content-header-text {
+                display: flex;
+                position: relative;
+                height: 100%; width: 100%;
+                margin: auto 100px auto 100px;
+                overflow: hidden;
+                align-items: center;
+    
+                .content-header-ds {
+                    display: block;
+                    height: 100%; width: 35px;
+    
+                    .content-header-dot01 {
+                        margin: 5px 0 0 7px;
+                        font-size: 40px;
+                    }
+                    .content-header-dot02 {
+                        display: flex;
+                        margin: -35px 0 -35px 20px;
+                        font-size: 40px;
+                    }
+                    .content-header-dot03 {
+                        margin: 0 0 0 7px;
+                        font-size: 40px;
+                    }
+                }
+    
+                .content-header-title {
+                    font-family: 'QuickSand L';
+                    margin: auto 0 auto 10px;
+                    font-size: 50px;
+                    transition: 1s;
+                    
+                }
+            }
+        }
+    
+        .content-body {
+            display: flex;
+            height: auto; width: 100%; 
+    
+            .content-body-container {
+                display: flex;
+                overflow: hidden;
+                height: 100%; width: 100%; 
+                margin:  0 100px 0px 100px;
+                justify-content: center;
+                align-items: center;
+    
+                .content-body-slide {
+                    display: block;
+                    position: relative;
+                    height: 100%; width: 100%;
+                    overflow: hidden;
+    
+                    .content-body-panel {
+                        display: flex;
+                        min-height: 500px; width: 100%;
+                        margin:  10px 0 10px 0;
+                        justify-content: center;
+                    }
+    
+                    .content-body-divider {
+                        height: auto; width: 1px;
+                        margin: 25px 25px 25px 25px;
+                        border-radius: 2px;
+                    }
+                    
+                    .content-body-divider-half {
+                        height: auto; width: 1px;
+                        margin: 25px 12.5px 25px 12.5px;
+                        border-radius: 2px;
+                    }
+    
+                    .aboutme-container {
+                        height: 100%; width: 48%;
+                        padding: 25px;
+    
+                        .aboutme-header {
+                            font-size: 35px;
+                            font-family: 'QuickSand';
+                            text-align: justify;
+                            margin: 0 auto 20px auto;
+                        }
+    
+                        .aboutme-text {
+                            font-size: 18px;
+                            font-family: 'Red Hat L';
+                            text-align: justify;
+                            margin: 0 auto 25px auto;
+        
+                        }
+    
+                        .aboutme-education {
+                            display: flex;
+                            height: auto; width: 100%;
+                            margin: 20px 10px 10px 10px;
+                           
+    
+                            .aboutme-diamond {
+                                height: 20px; width: 20px;
+                                margin: 10px 25px auto 10px;
+                                transform: rotate(45deg);
+                            }
+    
+                            .aboutme-education-date {
+                                font-size: 30px;
+                                font-family: 'Red Hat L';
+                                text-align: justify;
+                                margin: 0px auto 0 auto;
+                            }
+    
+                            .aboutme-education-degree {
+                                font-size: 25px;
+                                font-family: 'Red Hat L';
+                                text-align: justify;
+                                margin: 10px auto 10px auto;
+                            }
+    
+                            .aboutme-education-university {
+                                font-size: 20px;
+                                font-family: 'Red Hat L';
+                                text-align: justify;
+                                margin: 10px auto 10px auto;
+                            }
+    
+                        }
+    
+                    }
+    
+                    .skills-container {
+                        height: 100%; width: 30%;
+    
+                        .skill-header {
+                            display: block;
+                            height: auto; width: 100%;
+    
+                            .skill-diamond {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                height: 80px; width: 80px;
+                                border-radius: 5px;
+                                margin: 40px auto 40px auto;
+                                transform: rotate(45deg);
+
+                                .skill-icon {
+                                    height: 50px; width: 50px;
+                                    transform: rotate(-45deg);
+                                }
+                            }
+    
+                            .skill-name {
+                                font-size: 26px;
+                                font-family: 'Red Hat L';
+                                text-align: center;
+                                padding: 10px 0px 10px 0px;
+                                margin: auto;
+    
+                            }
+                        }
+    
+                        .skill-category {
+                            font-size: 26px;
+                            font-family: 'Red Hat';
+                            margin: 15px 0 -10px 0;
+                            padding: 5px 5px 5px 5px;
+                   
+                        }
+    
+                        .skill-list {
+                            display: grid;
+                            grid-template-columns: 1fr 1fr 1fr ;
+                            list-style: none;
+                            white-space: none;
+                    
+                        }
+    
+                        .skill-item {
+                            height: 50px; width: 110px;
+                            margin: 0 0 10px -30px;
+                           
+                            .skill-item-container {
+                                display: flex;
+                                margin: auto;
+                                align-items: center;
+    
+                                .skill-item-icon {
+                                    height: 30px; width: 30px;
+                  
+                                }
+    
+                                .skill-item-name {
+                                    font-size: 15px;
+                                    font-family: 'Red Hat';
+                                    padding: 0 0 0 5px;
+                                }
+                            }
+    
+                            
+                        }
+                    }
+    
+                    .projects-container {
+                        height: 100%; width: 48%;
+                        padding: 25px 10px 25px 10px;
+    
+                        .project-header{
+                            display: flex;
+                            height: 100px; width: 100%;
+                            align-items: center;
+                            overflow: hidden;                
+    
+                            .project-icon {
+                                display: flex;
+                                height: 60px; width: 60px;
+                                justify-content: center;
+                                align-items: center;
+                                border-radius: 5px;
+                    
+                                .project-icon-img {
+                                    height: 50px; width: 50px;
+                                    padding: 0 0 0 10px;
+                                
+                                }
+    
+                                .project-icon-img-2 {
+                                    height: 50px; width: 50px;
+                                
+                                }
+                            }
+    
+                            .project-header-vdivider {
+                                height: 100%;
+                                width: 1px;
+                                margin:  auto 25px auto 25px;
+    
+                            }
+    
+                            .project-header-text {
+                                display: block;
+    
+                                .project-name {
+                                    font-size: 30px;
+                                    font-family: 'Red Hat L';
+                                    margin:  0 auto 0 auto;
+                                   
+                                }
+    
+                                .project-typeNstatus {
+                                    font-size: 20px;
+                                    font-family: 'Red Hat L';
+                                    margin:  5px auto 0 auto;
+                         
+                                }
+    
+                                .project-link {
+                                    font-size: 20px;
+                                    font-family: 'Red Hat';
+                                    margin:  5px 0 0 0;
+                                }
+                            }
+                        }
+    
+                        .project-header-hdivider {
+                            height: 1px;
+                            width: 100%;
+                            margin:  25px auto 25px auto;
+    
+                        }
+    
+                        .project-category {
+                            font-size: 24px;
+                            font-family: 'Red Hat';
+                            margin: -10px 0 0 0;
+                            padding: 5px 5px 0 15px;
+    
+                        }
+    
+                        .project-description {
+                            font-size: 18px;
+                            font-family: 'Red Hat L';
+                            text-align: justify;
+                            padding: 0 5px 5px 15px;
+                        }
+    
+                        .project-features-list {
+                            margin: 10px 0 10px -20px;
+    
+                            .project-features-item {
+                                list-style: none;
+        
+                                .project-features-item-container {
+                                    display: flex;
+                                    height: auto; width: 100%;
+                                    align-items: center;
+            
+                                    .project-features-item-bullet {
+                                        height: 10px; width: 10px;
+                                        transform: rotate(45deg);
+                                    }
+            
+                                    .project-features-item-text {
+                                        font-size: 18px;
+                                        font-family: 'Red Hat L';
+                                        margin: 4px 0 4px 10px;
+                                    }
+                                }
+                            }
+                        } 
+                    }
+    
+                    .experiences-container {
+                        height: 100%; width: 30%;
+                        padding: 25px 10px 25px 10px;
+    
+    
+                        .experience-header{
+                            display: flex;
+                            height: 100px; width: 100%;
+                            align-items: center;
+                            overflow: hidden;                
+    
+                            .experience-icon {
+                                display: flex;
+                                height: 60px; width: 60px;
+                                justify-content: center;
+                                align-items: center;
+                                border-radius: 5px;
+                    
+                                .experience-icon-img {
+                                    height: 50px; width: 50px;
+                                    padding: 0 0 0 10px;
+                                
+                                }
+    
+                                .experience-icon-img-2 {
+                                    height: 50px; width: 50px;
+                                
+                                }
+                            }
+    
+                            .experience-header-vdivider {
+                                height: 100%;
+                                width: 1px;
+                                margin:  auto 25px auto 25px;
+    
+                            }
+    
+                            .experience-header-text {
+                                display: block;
+    
+                                .experience-role {
+                                    font-size: 16px;
+                                    font-family: 'Red Hat';
+                                    margin:  0 auto 0 auto;
+                                   
+                                }
+    
+                                .experience-company {
+                                    font-size: 16px;
+                                    font-family: 'Red Hat L';
+                                    margin:  5px auto 0 auto;
+                         
+                                }
+    
+                                .experience-date {
+                                    font-size: 15px;
+                                    font-family: 'Red Hat L';
+                                    margin:  5px 0 0 0;
+                                }
+                            }
+                        }
+    
+                        .experience-header-hdivider {
+                            height: 1px;
+                            width: 100%;
+                            margin:  25px auto 25px auto;
+    
+                        }
+    
+                        .experience-category {
+                            font-size: 25px;
+                            font-family: 'Red Hat';
+                            margin: -10px 0 0 -10px;
+                            padding: 5px 5px 0 15px;
+    
+                        }
+    
+                        .experience-description {
+                            font-size: 15px;
+                            font-family: 'Red Hat L';
+                            text-align: justify;
+                            padding: 0 5px 5px 15px;
+                        }
+    
+                        .experience-responsibilities-list {
+                            margin: 10px 0 10px -30px;
+    
+                            .experience-responsibilities-item {
+                                list-style: none;
+        
+                                .experience-responsibilities-item-container {
+                                    display: flex;
+                                    align-items: center;
+            
+                                    .experience-responsibilities-item-bullet {
+                                        height: 10px; width: 10px;
+                                        transform: rotate(45deg);
+                                    }
+            
+                                    .experience-responsibilities-item-text {
+                                        font-size: 15px;
+                                        font-family: 'Red Hat L';
+                                        margin: 4px 0 4px 10px;
+                                    }
+                                }
+                            }
+                        } 
+                    }
+                }
+            }
+        }
+    }
+
+}

@@ -32,7 +32,7 @@ export function bodyContent(color) {
         },
 
         container : {
-            border: '2px solid' + color
+            border: '1px solid' + color
         },
 
         dot : {

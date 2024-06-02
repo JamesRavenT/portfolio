@@ -24,29 +24,16 @@ export function Work02(pkg) {
             <div className='experience-divider'></div>
             <p className='experience-category' style={style.color}>Job Description</p>
             <p className='experience-description' style={style.color}>
-                Test
+                Worked for my undergraduate's thesis' benificiary. 
                 </p>
             <p className='experience-category' style={style.color}>Responsibilities</p>
             <ul className='experience-responsibilities-list'>
                 <li className='experience-responsibilities-item'>
                     <div className='experience-responsibilities-item-container'>
                     <div className='experience-responsibilities-item-bullet' style={style.block}></div>
-                    <p className='experience-responsibilities-item-text' style={style.color}>Test</p>
+                    <p className='experience-responsibilities-item-text' style={style.color}>Developed an AI integrated mPOS for their business</p>
                     </div>
                 </li>
-                <li className='experience-responsibilities-item'>
-                    <div className='experience-responsibilities-item-container'>
-                    <div className='experience-responsibilities-item-bullet' style={style.block}></div>
-                    <p className='experience-responsibilities-item-text' style={style.color}>Test</p>
-                    </div>
-                </li>
-                <li className='experience-responsibilities-item'>
-                    <div className='experience-responsibilities-item-container'>
-                    <div className='experience-responsibilities-item-bullet' style={style.block}></div>
-                    <p className='experience-responsibilities-item-text' style={style.color}>Test</p>
-                    </div>
-                </li>
-
             </ul>
         </div>
         </>

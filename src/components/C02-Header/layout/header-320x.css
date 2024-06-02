@@ -1,4 +1,4 @@
-@media only screen and (max-width: 319px) {
+@media (max-width: 319px) {
     .header {
         display: block;
         height: auto; width: 100%;
@@ -355,7 +355,7 @@
                     border-radius: 2px;
                 
                     .text-btn {
-                        font-family: 'QuickSand M';
+                        font-family: 'Red Hat';
                         font-size: 10px;
                         margin: auto;
                         padding: 10px;

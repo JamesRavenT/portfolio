@@ -1,3 +1,23 @@
+@media (max-width: 319px) {
+        /* Navbar Logo Image */
+        .nav-web-icon {
+            height: 45px; width: 45px;
+            margin: auto 0 10px 15px;
+    
+        }
+    
+        /* Navbar Logo Text*/
+        .nav-web-name {
+            display: none;
+            width: 75%;
+            text-align: center;
+            font-family: 'Red Hat';
+            font-size: 20px;
+
+            margin: 15px 0 auto 0;
+        } 
+}
+
 @media (min-width: 320px) and (max-width: 374px) {
         /* Navbar Logo Image */
         .nav-web-icon {

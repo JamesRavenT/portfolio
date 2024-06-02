@@ -19,8 +19,8 @@
                 font-size: 12px;
                 font-family: 'QuickSand M';    
                 text-align: center; 
-                height: auto; width: 800px;
-                margin: 0px 20px;
+                height: auto; width: 950px;
+                margin: 3px 20px 0 20px;
             }
         }
     
@@ -110,7 +110,7 @@
                     border-radius: 2px;
                 
                     .text-btn {
-                        font-family: 'QuickSand M';
+                        font-family: 'Red Hat';
                         font-size: 10px;
                         margin: auto;
                         padding: 10px;

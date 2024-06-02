@@ -113,11 +113,11 @@
                 .container-btn {
                     display: flex;
                     height: 40px; width: 250px;
-                    margin: 0px 0 0px 0px;
+                    margin: -2px 0 0px 0px;
                     border-radius: 2px;
                 
                     .text-btn {
-                        font-family: 'QuickSand M';
+                        font-family: 'Red Hat';
                         font-size: 12px;
                         margin: auto;
                         padding: 10px;
