@@ -1,3 +1,247 @@
+@media only screen and (max-width: 319px) {
+    .header {
+        display: block;
+        height: auto; width: 100%;
+        box-sizing: border-box;
+        margin-top: 64px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+        /* Welcome To My World */
+        .container-welcome {
+            display: flex;
+    
+            .welcome-ds-line {
+                height: 1px; width: 70%;
+                margin: 10px 5px;
+            }
+        
+            .welcome-text {
+                font-size: 10px;
+                font-family: 'QuickSand M';    
+                text-align: center; 
+                height: auto; width: 900px;
+                margin: 3px 10px;
+            }
+        }
+    
+        .container-intro {
+            display: flex;
+            width: 100%;
+            
+    
+            /* Left Block */
+            .container-leftblock {
+                height: auto; width: 100%;
+                margin: 30px;
+    
+                .greeting {
+                    font-family: 'Wix';
+                    font-size: 12px;
+                }
+                
+                .name {
+                    font-family: 'Red Hat M';
+                    margin: -5px 0 -5px 0;
+                    font-size: 28px;
+                }
+                
+                .job-description {
+                    font-family: 'Wix';
+                    font-size: 12px;
+                    text-align: justify;
+
+                }
+
+     
+                .container-socials-n-contact {
+                    height: 22px; width: 100%;
+                    display: flex;
+        
+                    .container-socials {
+                        display: flex;
+                        height: auto; width: auto;
+                    
+                        .list-socials {
+                            display: flex;
+                            flex-direction: row;
+                            list-style: none;
+                            margin: 0 auto auto -40px;
+                        
+                            .item-socials {
+                                margin: auto 15px auto auto;
+                            
+                                .icon-socials {
+                                    height: 20px; width: 20px;
+                                }
+                            }
+                            
+                        }
+                    }
+        
+                    .divider {
+                        height: 100%; width: auto;
+                        width : 0.5px;
+                        background-color: #232323;
+                    
+                    }
+        
+                    .container-contact {
+                        display: flex;
+                    
+                        .icon-contact {
+                            height: 18px; width: 18px;
+                            margin: auto 7px auto 15px;
+                        }
+                         
+                        .text-contact {
+                            font-family: 'Red Hat';
+                            font-size: 13px;
+                            text-align: center;
+                            margin: auto 0 auto auto;
+                        }
+            
+                    }        
+                
+                }
+        
+                .container-btn {
+                    display: flex;
+                    height: 35px; width: 150px;
+                    margin: 15px 0 0 0;
+                    border-radius: 2px;
+                
+                    .text-btn {
+                        font-family: 'QuickSand M';
+                        font-size: 10px;
+                        margin: auto;
+                        padding: 10px;
+                    }
+                
+                    .icon-btn {
+                        height: 18px; width: 18px;
+                        margin: auto auto auto 0;
+                        padding: 0 10px 0 0;
+                        transition: 2s;
+                    }
+                }
+            }
+    
+            /* Right Block */
+            .container-rightblock {
+                display: none;
+                height: auto; width: 50%;
+                margin: auto;
+                text-align: center;
+                align-self: center;
+                
+                .wrapper-box {
+                   
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    transform: rotate(45deg);
+                    perspective: 1200px;
+                    
+                    
+                    .container-box {
+                        position: relative;
+                        height: 250px;
+                        width:250px;
+                        transform-style: preserve-3d;
+                        animation: animate 5s infinite;
+    
+                        .box {
+                            position: absolute;
+                            height: 250px; width: 250px;
+                            border: 2px solid black;
+                            transition: all 1s;
+                        }
+        
+                        #front {
+                            transform: translateZ(180px);
+                        }
+            
+                        #back {
+                            transform: translateZ(-180px);
+                        }
+            
+                        #left {
+                            right: 180px;
+                            transform: rotateY(-90deg);
+                        }
+            
+                        #right {
+                            left: 180px;
+                            transform: rotateY(90deg);
+                        }
+            
+                        #top {
+                            bottom: 180px;
+                            transform: rotateX(90deg);
+                        }
+            
+                        #bottom {
+                            top: 180px;
+                            transform: rotateX(-90deg);
+                        }
+    
+                        
+                    }
+                    
+                    :hover {
+    
+                        #front {
+                            transform: translateZ(125px);
+                        }
+            
+                        #back {
+                            transform: translateZ(-125px);
+                        }
+            
+                        #left {
+                            right: 125px;
+        
+                        }
+            
+                        #right {
+                            left: 125px;
+    
+                        }
+            
+                        #top {
+                            bottom: 125px;
+    
+                        }
+            
+                        #bottom {
+                            top: 125px;
+                        }
+                       
+                    } 
+                }
+    
+    
+                
+               
+            }
+            
+        }
+    
+    
+    }
+    
+    @keyframes animate {
+        0% {
+            transform: rotate3d(0,0,0,0);
+        }
+        100% {
+            transform: rotate3d(1,1,1, -360deg);
+        }    
+    
+    }
+    
+}
+
 @media (min-width: 320px) and (max-width: 374px) {
     .header {
         display: block;

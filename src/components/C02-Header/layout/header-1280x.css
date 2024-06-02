@@ -1,4 +1,4 @@
-@media (min-width: 1280) {
+@media (min-width: 1280) and (max-width: 1439){
     .header {
         display: block;
         height: auto; width: 100%;
