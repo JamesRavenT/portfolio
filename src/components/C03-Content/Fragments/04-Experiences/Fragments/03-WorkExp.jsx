@@ -30,13 +30,17 @@ export function Work03(pkg) {
             <ul className='experience-responsibilities-list'>
                 <li className='experience-responsibilities-item'>
                     <div className='experience-responsibilities-item-container'>
-                    <div className='experience-responsibilities-item-bullet' style={style.block}></div>
+                    <div>
+                        <div className='experience-responsibilities-item-bullet' style={style.block}></div>
+                    </div>
                     <p className='experience-responsibilities-item-text' style={style.color}>Encoded receipts and transactions.</p>
                     </div>
                 </li>
                 <li className='experience-responsibilities-item'>
                     <div className='experience-responsibilities-item-container'>
-                    <div className='experience-responsibilities-item-bullet' style={style.block}></div>
+                    <div>
+                        <div className='experience-responsibilities-item-bullet' style={style.block}></div>
+                    </div>
                     <p className='experience-responsibilities-item-text' style={style.color}>Developed a work order management system that helped the employees manage their workload more efficiently.</p>
                     </div>
                 </li>

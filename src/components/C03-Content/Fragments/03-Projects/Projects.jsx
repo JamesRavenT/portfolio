@@ -56,25 +56,33 @@ export function Projects(pkg) {
                             <ul className='project-features-list'>
                                 <li className='project-features-item'>
                                     <div className='project-features-item-container'>
-                                    <div className='project-features-item-bullet' style={style.block}></div>
+                                    <div>
+                                        <div className='project-features-item-bullet' style={style.block}></div>
+                                    </div>  
                                     <p className='project-features-item-text' style={style.color}>Information about me, displayed with a user-friendly UI.</p>
                                     </div>
                                 </li>
                                 <li className='project-features-item'>
                                     <div className='project-features-item-container'>
-                                    <div className='project-features-item-bullet' style={style.block}></div>
+                                    <div>
+                                        <div className='project-features-item-bullet' style={style.block}></div>
+                                    </div>  
                                     <p className='project-features-item-text' style={style.color}>Night/Day mode switch.</p>
                                     </div>
                                 </li>
                                 <li className='project-features-item'>
                                     <div className='project-features-item-container'>
-                                    <div className='project-features-item-bullet' style={style.block}></div>
+                                    <div>
+                                        <div className='project-features-item-bullet' style={style.block}></div>
+                                    </div>  
                                     <p className='project-features-item-text' style={style.color}>Download my resume on site.</p>
                                     </div>
                                 </li>
                                 <li className='project-features-item'>
                                     <div className='project-features-item-container'>
-                                    <div className='project-features-item-bullet' style={style.block}></div>
+                                    <div>
+                                        <div className='project-features-item-bullet' style={style.block}></div>
+                                    </div>  
                                     <p className='project-features-item-text' style={style.color}>A rotating and hoverable cube made of pure CSS.</p>
                                     </div>
                                 </li>
@@ -107,13 +115,17 @@ export function Projects(pkg) {
                             <ul className='project-features-list'>
                                 <li className='project-features-item'>
                                     <div className='project-features-item-container'>
-                                    <div className='project-features-item-bullet' style={style.block}></div>
+                                    <div>
+                                        <div className='project-features-item-bullet' style={style.block}></div>
+                                    </div>  
                                     <p className='project-features-item-text' style={style.color}>AI that recommends popular combinations of products on the device.</p>
                                     </div>
                                 </li>
                                 <li className='project-features-item'>
                                     <div className='project-features-item-container'>
-                                    <div className='project-features-item-bullet' style={style.block}></div>
+                                    <div>
+                                        <div className='project-features-item-bullet' style={style.block}></div>
+                                    </div>  
                                     <p className='project-features-item-text' style={style.color}>Data is in sync with <a href='https://www.linkedin.com/in/jacob-saucelo-594622286/' target='_blank' rel='noopener noreferrer' style={style.linkcolor}>
                                     Jacob Saucelo
                                 </a> 
@@ -122,25 +134,33 @@ export function Projects(pkg) {
                                 </li>
                                 <li className='project-features-item'>
                                     <div className='project-features-item-container'>
-                                    <div className='project-features-item-bullet' style={style.block}></div>
+                                    <div>
+                                        <div className='project-features-item-bullet' style={style.block}></div>
+                                    </div>  
                                     <p className='project-features-item-text' style={style.color}>mPOS features such as Cart, Refund, Discount and Table Management.</p>
                                     </div>
                                 </li>
                                 <li className='project-features-item'>
                                     <div className='project-features-item-container'>
-                                    <div className='project-features-item-bullet' style={style.block}></div>
+                                    <div>
+                                        <div className='project-features-item-bullet' style={style.block}></div>
+                                    </div>  
                                     <p className='project-features-item-text' style={style.color}>Inventory Management system & Sales Report.</p>
                                     </div>
                                 </li>
                                 <li className='project-features-item'>
                                     <div className='project-features-item-container'>
-                                    <div className='project-features-item-bullet' style={style.block}></div>
+                                    <div>
+                                        <div className='project-features-item-bullet' style={style.block}></div>
+                                    </div>  
                                     <p className='project-features-item-text' style={style.color}>Data is Syncable with different devices.</p>
                                     </div>
                                 </li>
                                 <li className='project-features-item'>
                                     <div className='project-features-item-container'>
-                                    <div className='project-features-item-bullet' style={style.block}></div>
+                                    <div>
+                                        <div className='project-features-item-bullet' style={style.block}></div>
+                                    </div>  
                                     <p className='project-features-item-text' style={style.color}>Can fully operate offline. Data will be synced once online.</p>
                                     </div>
                                 </li>

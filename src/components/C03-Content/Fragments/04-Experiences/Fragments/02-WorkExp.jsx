@@ -31,7 +31,9 @@ export function Work02(pkg) {
             <ul className='experience-responsibilities-list'>
                 <li className='experience-responsibilities-item'>
                     <div className='experience-responsibilities-item-container'>
-                    <div className='experience-responsibilities-item-bullet' style={style.block}></div>
+                        <div>
+                            <div className='experience-responsibilities-item-bullet' style={style.block}></div>
+                        </div>  
                     <p className='experience-responsibilities-item-text' style={style.color}>Developed a mobile POS for their business integrated with a machine-learning algorithm that predicts consumer behavior. Resulting in an improvement of the business' sales as it helps them on devising new marketing strategies.</p>
                     </div>
                 </li>
