@@ -5,7 +5,7 @@ export function SocialsNContact(pkg) {
     const isDark = pkg.theme
     const style = pkg.layout
     //Variables
-    const linkedInLink = 'https://www.linkedin.com/in/james-raven-tabag-004799247/'
+    const linkedInLink = 'https://www.linkedin.com/in/jamesravent/'
     const linkedInIcon = 'assets/icons/linkedin.png'
     const linkedInToolTip = 'LinkedIn'
     //--
