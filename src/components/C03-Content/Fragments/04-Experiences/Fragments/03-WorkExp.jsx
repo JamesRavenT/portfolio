@@ -37,7 +37,7 @@ export function Work03(pkg) {
                 <li className='experience-responsibilities-item'>
                     <div className='experience-responsibilities-item-container'>
                     <div className='experience-responsibilities-item-bullet' style={style.block}></div>
-                    <p className='experience-responsibilities-item-text' style={style.color}>Developed a work order management system.</p>
+                    <p className='experience-responsibilities-item-text' style={style.color}>Developed a work order management system that helped the employees manage their workload more efficiently.</p>
                     </div>
                 </li>
             </ul>

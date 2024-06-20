@@ -31,13 +31,13 @@ export function Work01(pkg) {
                 <li className='experience-responsibilities-item'>
                     <div className='experience-responsibilities-item-container'>
                     <div className='experience-responsibilities-item-bullet' style={style.block}></div>
-                    <p className='experience-responsibilities-item-text' style={style.color}>Assisted IT staff in their daily tasks.</p>
+                    <p className='experience-responsibilities-item-text' style={style.color}>Supported the IT department in handling technology rollout and maintenance.</p>
                     </div>
                 </li>
                 <li className='experience-responsibilities-item'>
                     <div className='experience-responsibilities-item-container'>
                     <div className='experience-responsibilities-item-bullet' style={style.block}></div>
-                    <p className='experience-responsibilities-item-text' style={style.color}>Documented the Provincial Government's website.</p>
+                    <p className='experience-responsibilities-item-text' style={style.color}>Developed a simple yet comprehensive documentation regarding the government's website.</p>
                     </div>
                 </li>
             </ul>
