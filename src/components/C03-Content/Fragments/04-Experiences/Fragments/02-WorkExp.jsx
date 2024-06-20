@@ -24,7 +24,7 @@ export function Work02(pkg) {
             <div className='experience-divider'></div>
             <p className='experience-category' style={style.color}>Job Description</p>
             <p className='experience-description' style={style.color}>
-                Worked for my undergraduate's thesis' benificiary. 
+                Worked for my undergraduate's thesis' benificiary. Developed a mobile POS for their business. It is integrated with a machine-learning algorithm that predicts consumer behavior. The data collected is then uploaded to the cloud that will be used by the store's website to display the most popular combinations ordered by the customers. That resulted in an improvement of the business' sales as it helps them on devising new marketing strategies.
                 </p>
             <p className='experience-category' style={style.color}>Responsibilities</p>
             <ul className='experience-responsibilities-list'>
