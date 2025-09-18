@@ -89,7 +89,7 @@ export function Introduction(theme) {
                     </h1>
                 <p className='job-description'
                    style={style.color}>
-                    An entry-level Software Engineer based in the Philippines. 
+                    An aspiring software developer based in the Philippines. 
                     Currently, I can develop Websites in ReactJS and Android Applications in Java.
                     </p>
                 <div className='header-scd' style={lightMode.visibility}>

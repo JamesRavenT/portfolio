@@ -6,7 +6,7 @@ export function DownloadBtn(pkg) {
     const viewIcon = isDark? 'assets/icons/dark/download.png' : 'assets/icons/download.png'
     return(
         <>
-        <a href='assets/files/Resume.pdf' download='Resume - James Raven Tabag' style={{textDecoration: 'none'}}>
+        <a href='https://docs.google.com/document/d/1dzSsqBpjQZ5WDe_AOqP2Ozee79v5ErxAYpsefPGlhRA/edit?tab=t.0' style={{textDecoration: 'none'}}>
             <div className='container-btn'
                 style={style.bg}>
                 <p className='text-btn'
